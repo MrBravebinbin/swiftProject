@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		96104F2B1FF22ED400AF8683 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96104F2A1FF22ED400AF8683 /* AppDelegate.swift */; };
-		96104F2D1FF22ED400AF8683 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96104F2C1FF22ED400AF8683 /* ViewController.swift */; };
 		96104F301FF22ED400AF8683 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96104F2E1FF22ED400AF8683 /* Main.storyboard */; };
 		96104F321FF22ED400AF8683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96104F311FF22ED400AF8683 /* Assets.xcassets */; };
 		96104F351FF22ED400AF8683 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96104F331FF22ED400AF8683 /* LaunchScreen.storyboard */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		96104F271FF22ED400AF8683 /* swiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96104F2A1FF22ED400AF8683 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		96104F2C1FF22ED400AF8683 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		96104F2F1FF22ED400AF8683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96104F311FF22ED400AF8683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96104F341FF22ED400AF8683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,8 +95,8 @@
 		96104F291FF22ED400AF8683 /* swiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				966EBF5A1FF33617000E9016 /* @Classes */,
 				96104F2A1FF22ED400AF8683 /* AppDelegate.swift */,
-				96104F2C1FF22ED400AF8683 /* ViewController.swift */,
 				96104F2E1FF22ED400AF8683 /* Main.storyboard */,
 				96104F311FF22ED400AF8683 /* Assets.xcassets */,
 				96104F331FF22ED400AF8683 /* LaunchScreen.storyboard */,
@@ -123,6 +121,61 @@
 				96104F4C1FF22ED400AF8683 /* Info.plist */,
 			);
 			path = swiftDemoUITests;
+			sourceTree = "<group>";
+		};
+		966EBF5A1FF33617000E9016 /* @Classes */ = {
+			isa = PBXGroup;
+			children = (
+				966EBF5B1FF33617000E9016 /* Discover(发现) */,
+				966EBF5C1FF33617000E9016 /* Home(首页) */,
+				966EBF5D1FF33617000E9016 /* Main(主要) */,
+				966EBF5E1FF33617000E9016 /* Message(消息) */,
+				966EBF5F1FF33617000E9016 /* Profile(我) */,
+				966EBF601FF33617000E9016 /* Tools(工具) */,
+			);
+			path = "@Classes";
+			sourceTree = "<group>";
+		};
+		966EBF5B1FF33617000E9016 /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		966EBF5C1FF33617000E9016 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		966EBF5D1FF33617000E9016 /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		966EBF5E1FF33617000E9016 /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		966EBF5F1FF33617000E9016 /* Profile(我) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Profile(我)";
+			sourceTree = "<group>";
+		};
+		966EBF601FF33617000E9016 /* Tools(工具) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Tools(工具)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +312,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96104F2D1FF22ED400AF8683 /* ViewController.swift in Sources */,
 				96104F2B1FF22ED400AF8683 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -429,11 +481,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 469YBH893T;
 				INFOPLIST_FILE = swiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BinBin.swiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -444,11 +498,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 469YBH893T;
 				INFOPLIST_FILE = swiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BinBin.swiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
